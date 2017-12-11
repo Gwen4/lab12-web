@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    align-content: center;
+	color: #383838;
+	font-family: sans-serif;
+	width: 1080px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #383838;
+}
+#food
+{
+	padding: 10px;
+	
+}
+#banner
+{
+	background-color: #B27964;
+	color: #C1FFF4;
+	height: 200px;
+}
+#banner h1
+{
+	padding-top: 5%;
+	font-size: 40px;
+}
+h1, h2, h3, p
+{
+	text-align: center;
+}
+
+p
+{
+	margin-bottom: 70px;
+}
+
+ul
+{
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+li > p
+{
+	padding: 85px;
+	vertical-align: center;
+	text-align: center;
+	background-color: #FFBFA8;
+}
